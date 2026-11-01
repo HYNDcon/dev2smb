@@ -190,9 +190,9 @@ else {
 }
 
 # system tagged - psd1
-Write-Host "`n[#] system tagged — psd1" -ForegroundColor Cyan
+Write-Host "`n[#] system tagged — psd1" -ForegroundColor White
 if ($AllIds.Count -eq 0) {
-  Write-Host "  devices = @()" -ForegroundColor White
+  Write-Host "  devices = @()" -ForegroundColor Grey
 }
 else {
   $exportLines = @()
